@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: chartreuse;
+}
+
+nav {
+    background-color: darkgray;
+    padding-top: 10px;
+}
+
+.nav-section {
+    height: 60px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkgray;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.nav-section a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 2px 22px;
+    color: crimson;
+}
+
+.nav-section a:hover {
+    color: rgb(217, 76, 104);
+}
